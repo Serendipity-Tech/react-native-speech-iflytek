@@ -8,7 +8,7 @@
 
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
-#import <iflyMSC/IFlyMSC.h>
+#import <IFlyMSC.h>
 
 @interface SpeechRecognizerModule : RCTEventEmitter <RCTBridgeModule, IFlySpeechRecognizerDelegate> {
     BOOL hasListeners;

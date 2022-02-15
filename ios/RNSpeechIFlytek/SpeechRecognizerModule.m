@@ -8,7 +8,7 @@
 
 #import "SpeechRecognizerModule.h"
 #import <Foundation/Foundation.h>
-#import <iflyMSC/IFlyMSC.h>
+#import <IFlyMSC.h>
 
 @implementation SpeechRecognizerModule
 

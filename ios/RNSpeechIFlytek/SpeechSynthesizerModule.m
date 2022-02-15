@@ -8,7 +8,7 @@
 
 #import "SpeechSynthesizerModule.h"
 #import <Foundation/Foundation.h>
-#import <iflyMSC/IFlyMSC.h>
+#import <IFlyMSC.h>
 
 @implementation SpeechSynthesizerModule
 

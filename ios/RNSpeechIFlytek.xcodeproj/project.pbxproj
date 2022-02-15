@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		230A64F427AAACDF005773DD /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = libs/iflyMSC.framework; sourceTree = "<group>"; };
 		E443FF2E2006066000ED0C08 /* SpeechSynthesizerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizerModule.m; sourceTree = "<group>"; };
 		E443FF2F2006066000ED0C08 /* SpeechConstantModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechConstantModule.h; sourceTree = "<group>"; };
 		E443FF302006066000ED0C08 /* SpeechConstantModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechConstantModule.m; sourceTree = "<group>"; };
@@ -45,11 +46,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230A64F327AAACDF005773DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				230A64F427AAACDF005773DD /* iflyMSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E49168CC2006061600B9A23A = {
 			isa = PBXGroup;
 			children = (
 				E49168D72006061600B9A23A /* RNSpeechIFlytek */,
 				E49168D62006061600B9A23A /* Products */,
+				230A64F327AAACDF005773DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,9 @@
 		E49168CD2006061600B9A23A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = zphhhhh;
 				TargetAttributes = {
@@ -248,7 +261,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/libs\"",
+					"$(PROJECT_DIR)/libs",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -260,7 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/libs\"",
+					"$(PROJECT_DIR)/libs",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
