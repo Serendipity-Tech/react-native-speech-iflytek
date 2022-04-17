@@ -1,0 +1,12 @@
+com/zphhhhh/speech/SpeechSynthesizerModule.java
+ com.zphhhhh.speech.SpeechSynthesizerModule
+ com.zphhhhh.speech.SpeechSynthesizerModule$1
+com/zphhhhh/speech/BuildConfig.java
+ com.zphhhhh.speech.BuildConfig
+com/zphhhhh/speech/SpeechConstantModule.java
+ com.zphhhhh.speech.SpeechConstantModule
+com/zphhhhh/speech/SpeechRecognizerModule.java
+ com.zphhhhh.speech.SpeechRecognizerModule
+ com.zphhhhh.speech.SpeechRecognizerModule$1
+com/zphhhhh/speech/SpeechPackage.java
+ com.zphhhhh.speech.SpeechPackage
